@@ -6,10 +6,10 @@ while primes < 10001:
     for y in range(2, x):
         if x%y==0:
             z = 1
+            break
 
     if z == 0:
         primes += 1
-        print primes
         
 
 print x
